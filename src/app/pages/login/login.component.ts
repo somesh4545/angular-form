@@ -55,20 +55,28 @@ export class SignUpModel  {
   name: string;
   email: string;
   password: string;
+  age: number;
+  bloodGRP: string;
 
   constructor() {
     this.email = "";
     this.name = "";
-    this.password= ""
+    this.password= "";
+    this.bloodGRP = "";
+    this.age = 18;
   }
 }
 
 export class LoginModel  { 
   email: string;
-  password: string;
+  password: string;  
+  age: number;
+  bloodGRP: string;
 
   constructor() {
     this.email = ""; 
     this.password= ""
+    this.age = 18;
+    this.bloodGRP = "";
   }
 }
